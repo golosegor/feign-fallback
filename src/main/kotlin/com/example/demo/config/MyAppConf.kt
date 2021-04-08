@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration
 @Configuration
 class MyAppConf {
     @Bean
-    fun huy(): DataAccessApi {
+    fun dataAccessApi(): DataAccessApi {
         return DataAccessApiForSecurityContext()
     }
 }
